@@ -1,7 +1,7 @@
 import Foundation
 import Observation
 
-/// PLACEHOLDER: replaced by the Transaction detail feature agent.
+/// Owns the review state of one transaction. Optimistic update with rollback on failure.
 @MainActor @Observable
 final class TransactionDetailViewModel {
     private(set) var transaction: Transaction
@@ -9,20 +9,25 @@ final class TransactionDetailViewModel {
     private(set) var error: UserFacingError?
     private let transactionService: any TransactionService
 
+    var isReviewed: Bool { transaction.isReviewed }
+
     init(transaction: Transaction, transactionService: any TransactionService) {
         self.transaction = transaction
         self.transactionService = transactionService
     }
 
-    /// Optimistic toggle; returns true on success so the caller can notify.
+    /// Sets an explicit review state (idempotent). Returns true when the service confirmed it,
+    /// so the caller can notify the lists. A call while one is in flight is ignored.
+    @discardableResult
     func setReviewed(_ isReviewed: Bool) async -> Bool {
+        guard !isUpdating else { return false }
         let previous = transaction
         transaction.isReviewed = isReviewed
         isUpdating = true
+        error = nil
         defer { isUpdating = false }
         do {
             transaction = try await transactionService.setReviewed(isReviewed, forTransactionID: previous.id)
-            error = nil
             return true
         } catch {
             transaction = previous
@@ -30,4 +35,12 @@ final class TransactionDetailViewModel {
             return false
         }
     }
+
+    /// Flips the current state. Used by the primary button and by Retry (which re-attempts the same target).
+    @discardableResult
+    func toggleReviewed() async -> Bool {
+        await setReviewed(!transaction.isReviewed)
+    }
+
+    func dismissError() { error = nil }
 }
