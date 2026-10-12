@@ -16,8 +16,8 @@ struct DashboardContent: Equatable, Sendable {
 
 @MainActor @Observable
 final class DashboardViewModel {
-    static let topCategoryCount = 4
-    static let recentCount = 5
+    nonisolated static let topCategoryCount = 4
+    nonisolated static let recentCount = 5
 
     private(set) var state: LoadState<DashboardContent> = .idle
     /// Transient error from a failed refresh while stale data stays on screen.
