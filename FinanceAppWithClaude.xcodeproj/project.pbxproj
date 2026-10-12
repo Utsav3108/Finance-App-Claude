@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6FF1544E307D48760090CB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF15436307D48740090CB6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF1543D307D48740090CB6C;
+			remoteInfo = FinanceAppWithClaude;
+		};
+		6FF15458307D48760090CB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF15436307D48740090CB6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF1543D307D48740090CB6C;
+			remoteInfo = FinanceAppWithClaude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FF1543E307D48740090CB6C /* FinanceAppWithClaude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceAppWithClaude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF1544D307D48760090CB6C /* FinanceAppWithClaudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceAppWithClaudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF15457307D48760090CB6C /* FinanceAppWithClaudeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceAppWithClaudeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6FF15440307D48740090CB6C /* FinanceAppWithClaude */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinanceAppWithClaude;
+			sourceTree = "<group>";
+		};
+		6FF15450307D48760090CB6C /* FinanceAppWithClaudeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinanceAppWithClaudeTests;
+			sourceTree = "<group>";
+		};
+		6FF1545A307D48760090CB6C /* FinanceAppWithClaudeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinanceAppWithClaudeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF1543B307D48740090CB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6FF1544A307D48760090CB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6FF15454307D48760090CB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF15435307D48740090CB6C = {
+			isa = PBXGroup;
+			children = (
+				6FF15440307D48740090CB6C /* FinanceAppWithClaude */,
+				6FF15450307D48760090CB6C /* FinanceAppWithClaudeTests */,
+				6FF1545A307D48760090CB6C /* FinanceAppWithClaudeUITests */,
+				6FF1543F307D48740090CB6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF1543F307D48740090CB6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF1543E307D48740090CB6C /* FinanceAppWithClaude.app */,
+				6FF1544D307D48760090CB6C /* FinanceAppWithClaudeTests.xctest */,
+				6FF15457307D48760090CB6C /* FinanceAppWithClaudeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF1543D307D48740090CB6C /* FinanceAppWithClaude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF1545F307D48760090CB6C /* Build configuration list for PBXNativeTarget "FinanceAppWithClaude" */;
+			buildPhases = (
+				6FF1543A307D48740090CB6C /* Sources */,
+				6FF1543B307D48740090CB6C /* Frameworks */,
+				6FF1543C307D48740090CB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				6FF15440307D48740090CB6C /* FinanceAppWithClaude */,
+			);
+			name = FinanceAppWithClaude;
+			productName = FinanceAppWithClaude;
+			productReference = 6FF1543E307D48740090CB6C /* FinanceAppWithClaude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FF1544C307D48760090CB6C /* FinanceAppWithClaudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF15462307D48760090CB6C /* Build configuration list for PBXNativeTarget "FinanceAppWithClaudeTests" */;
+			buildPhases = (
+				6FF15449307D48760090CB6C /* Sources */,
+				6FF1544A307D48760090CB6C /* Frameworks */,
+				6FF1544B307D48760090CB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF1544F307D48760090CB6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FF15450307D48760090CB6C /* FinanceAppWithClaudeTests */,
+			);
+			name = FinanceAppWithClaudeTests;
+			productName = FinanceAppWithClaudeTests;
+			productReference = 6FF1544D307D48760090CB6C /* FinanceAppWithClaudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FF15456307D48760090CB6C /* FinanceAppWithClaudeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF15465307D48760090CB6C /* Build configuration list for PBXNativeTarget "FinanceAppWithClaudeUITests" */;
+			buildPhases = (
+				6FF15453307D48760090CB6C /* Sources */,
+				6FF15454307D48760090CB6C /* Frameworks */,
+				6FF15455307D48760090CB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF15459307D48760090CB6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FF1545A307D48760090CB6C /* FinanceAppWithClaudeUITests */,
+			);
+			name = FinanceAppWithClaudeUITests;
+			productName = FinanceAppWithClaudeUITests;
+			productReference = 6FF15457307D48760090CB6C /* FinanceAppWithClaudeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF15436307D48740090CB6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					6FF1543D307D48740090CB6C = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					6FF1544C307D48760090CB6C = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 6FF1543D307D48740090CB6C;
+					};
+					6FF15456307D48760090CB6C = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 6FF1543D307D48740090CB6C;
+					};
+				};
+			};
+			buildConfigurationList = 6FF15439307D48740090CB6C /* Build configuration list for PBXProject "FinanceAppWithClaude" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF15435307D48740090CB6C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6FF1543F307D48740090CB6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF1543D307D48740090CB6C /* FinanceAppWithClaude */,
+				6FF1544C307D48760090CB6C /* FinanceAppWithClaudeTests */,
+				6FF15456307D48760090CB6C /* FinanceAppWithClaudeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF1543C307D48740090CB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6FF1544B307D48760090CB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6FF15455307D48760090CB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF1543A307D48740090CB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6FF15449307D48760090CB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6FF15453307D48760090CB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FF1544F307D48760090CB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FF1543D307D48740090CB6C /* FinanceAppWithClaude */;
+			targetProxy = 6FF1544E307D48760090CB6C /* PBXContainerItemProxy */;
+		};
+		6FF15459307D48760090CB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FF1543D307D48740090CB6C /* FinanceAppWithClaude */;
+			targetProxy = 6FF15458307D48760090CB6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FF1545D307D48760090CB6C /* Debug configuration for PBXProject "FinanceAppWithClaude" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FF1545E307D48760090CB6C /* Release configuration for PBXProject "FinanceAppWithClaude" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF15460307D48760090CB6C /* Debug configuration for PBXNativeTarget "FinanceAppWithClaude" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsavpandya.FinanceAppWithClaude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FF15461307D48760090CB6C /* Release configuration for PBXNativeTarget "FinanceAppWithClaude" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsavpandya.FinanceAppWithClaude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FF15463307D48760090CB6C /* Debug configuration for PBXNativeTarget "FinanceAppWithClaudeTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsavpandya.FinanceAppWithClaudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceAppWithClaude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinanceAppWithClaude";
+			};
+			name = Debug;
+		};
+		6FF15464307D48760090CB6C /* Release configuration for PBXNativeTarget "FinanceAppWithClaudeTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsavpandya.FinanceAppWithClaudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceAppWithClaude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinanceAppWithClaude";
+			};
+			name = Release;
+		};
+		6FF15466307D48760090CB6C /* Debug configuration for PBXNativeTarget "FinanceAppWithClaudeUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsavpandya.FinanceAppWithClaudeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinanceAppWithClaude;
+			};
+			name = Debug;
+		};
+		6FF15467307D48760090CB6C /* Release configuration for PBXNativeTarget "FinanceAppWithClaudeUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3FB7Q2795;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsavpandya.FinanceAppWithClaudeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinanceAppWithClaude;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF15439307D48740090CB6C /* Build configuration list for PBXProject "FinanceAppWithClaude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF1545D307D48760090CB6C /* Debug configuration for PBXProject "FinanceAppWithClaude" */,
+				6FF1545E307D48760090CB6C /* Release configuration for PBXProject "FinanceAppWithClaude" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6FF1545F307D48760090CB6C /* Build configuration list for PBXNativeTarget "FinanceAppWithClaude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF15460307D48760090CB6C /* Debug configuration for PBXNativeTarget "FinanceAppWithClaude" */,
+				6FF15461307D48760090CB6C /* Release configuration for PBXNativeTarget "FinanceAppWithClaude" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6FF15462307D48760090CB6C /* Build configuration list for PBXNativeTarget "FinanceAppWithClaudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF15463307D48760090CB6C /* Debug configuration for PBXNativeTarget "FinanceAppWithClaudeTests" */,
+				6FF15464307D48760090CB6C /* Release configuration for PBXNativeTarget "FinanceAppWithClaudeTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6FF15465307D48760090CB6C /* Build configuration list for PBXNativeTarget "FinanceAppWithClaudeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF15466307D48760090CB6C /* Debug configuration for PBXNativeTarget "FinanceAppWithClaudeUITests" */,
+				6FF15467307D48760090CB6C /* Release configuration for PBXNativeTarget "FinanceAppWithClaudeUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF15436307D48740090CB6C /* Project object */;
+	validationLevel = 1;
+}
