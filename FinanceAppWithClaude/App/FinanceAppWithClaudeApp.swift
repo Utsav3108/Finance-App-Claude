@@ -1,0 +1,18 @@
+import SwiftUI
+import SwiftData
+
+@main
+struct FinanceAppWithClaudeApp: App {
+    @State private var environment: AppEnvironment
+
+    init() {
+        _environment = State(initialValue: AppEnvironment.live())
+    }
+
+    var body: some Scene {
+        WindowGroup {
+            RootView()
+                .environment(environment)
+        }
+    }
+}
