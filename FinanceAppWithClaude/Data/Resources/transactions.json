@@ -1,0 +1,252 @@
+{
+  "transactions": [
+    {
+      "id": "txn-001",
+      "title": "Monthly Salary",
+      "amount": "3200.00",
+      "currencyCode": "USD",
+      "date": "2026-10-01T09:30:00Z",
+      "category": "income",
+      "note": "Acme Corp payroll",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-002",
+      "title": "Rent",
+      "amount": "-1050.00",
+      "currencyCode": "USD",
+      "date": "2026-10-01T08:30:00Z",
+      "category": "bills",
+      "note": "October rent",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-003",
+      "title": "Whole Foods",
+      "amount": "-84.32",
+      "currencyCode": "USD",
+      "date": "2026-10-02T17:30:00Z",
+      "category": "groceries",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-004",
+      "title": "Blue Bottle Coffee",
+      "amount": "-6.50",
+      "currencyCode": "USD",
+      "date": "2026-10-02T08:30:00Z",
+      "category": "dining",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-005",
+      "title": "Metro Card Refill",
+      "amount": "-40.00",
+      "currencyCode": "USD",
+      "date": "2026-10-02T07:30:00Z",
+      "category": "transport",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-006",
+      "title": "Electric Bill",
+      "amount": "-72.18",
+      "currencyCode": "USD",
+      "date": "2026-10-03T11:30:00Z",
+      "category": "bills",
+      "note": "Autopay",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-007",
+      "title": "Netflix",
+      "amount": "-15.49",
+      "currencyCode": "USD",
+      "date": "2026-10-03T06:30:00Z",
+      "category": "entertainment",
+      "note": "Monthly subscription",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-008",
+      "title": "Trader Joe's",
+      "amount": "-56.90",
+      "currencyCode": "USD",
+      "date": "2026-10-04T18:30:00Z",
+      "category": "groceries"
+    },
+    {
+      "id": "txn-009",
+      "title": "Chipotle",
+      "amount": "-13.75",
+      "currencyCode": "USD",
+      "date": "2026-10-04T12:30:00Z",
+      "category": "dining"
+    },
+    {
+      "id": "txn-010",
+      "title": "Uber",
+      "amount": "-18.40",
+      "currencyCode": "USD",
+      "date": "2026-10-05T22:30:00Z",
+      "category": "transport",
+      "note": "Ride home"
+    },
+    {
+      "id": "txn-011",
+      "title": "Pharmacy",
+      "amount": "-23.60",
+      "currencyCode": "USD",
+      "date": "2026-10-05T10:30:00Z",
+      "category": "health",
+      "note": "Vitamins"
+    },
+    {
+      "id": "txn-012",
+      "title": "H&M",
+      "amount": "-64.99",
+      "currencyCode": "USD",
+      "date": "2026-10-06T15:30:00Z",
+      "category": "shopping",
+      "note": "Autumn jacket"
+    },
+    {
+      "id": "txn-013",
+      "title": "Freelance Project",
+      "amount": "450.00",
+      "currencyCode": "USD",
+      "date": "2026-10-06T13:30:00Z",
+      "category": "income",
+      "note": "Logo design for a client",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-014",
+      "title": "Sushi Place",
+      "amount": "-42.80",
+      "currencyCode": "USD",
+      "date": "2026-10-07T19:30:00Z",
+      "category": "dining",
+      "note": "Dinner with friends"
+    },
+    {
+      "id": "txn-015",
+      "title": "Internet",
+      "amount": "-59.99",
+      "currencyCode": "USD",
+      "date": "2026-10-07T09:30:00Z",
+      "category": "bills",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-016",
+      "title": "Spotify",
+      "amount": "-10.99",
+      "currencyCode": "USD",
+      "date": "2026-10-08T07:30:00Z",
+      "category": "entertainment",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-017",
+      "title": "Safeway",
+      "amount": "-71.45",
+      "currencyCode": "USD",
+      "date": "2026-10-08T16:30:00Z",
+      "category": "groceries"
+    },
+    {
+      "id": "txn-018",
+      "title": "Shell Gas Station",
+      "amount": "-48.20",
+      "currencyCode": "USD",
+      "date": "2026-10-09T14:30:00Z",
+      "category": "transport",
+      "note": "Fuel"
+    },
+    {
+      "id": "txn-019",
+      "title": "Cinema Tickets",
+      "amount": "-28.00",
+      "currencyCode": "USD",
+      "date": "2026-10-09T20:30:00Z",
+      "category": "entertainment",
+      "note": "Weekend movie"
+    },
+    {
+      "id": "txn-020",
+      "title": "Dentist Co-pay",
+      "amount": "-35.00",
+      "currencyCode": "USD",
+      "date": "2026-10-10T09:30:00Z",
+      "category": "health"
+    },
+    {
+      "id": "txn-021",
+      "title": "Amazon",
+      "amount": "-39.99",
+      "currencyCode": "USD",
+      "date": "2026-10-10T11:30:00Z",
+      "category": "shopping",
+      "note": "Phone case"
+    },
+    {
+      "id": "txn-022",
+      "title": "Starbucks",
+      "amount": "-5.85",
+      "currencyCode": "USD",
+      "date": "2026-10-10T08:30:00Z",
+      "category": "dining"
+    },
+    {
+      "id": "txn-023",
+      "title": "Gym Membership",
+      "amount": "-29.00",
+      "currencyCode": "USD",
+      "date": "2026-10-11T06:30:00Z",
+      "category": "health",
+      "isReviewed": true
+    },
+    {
+      "id": "txn-024",
+      "title": "Farmers Market",
+      "amount": "-32.15",
+      "currencyCode": "USD",
+      "date": "2026-10-11T10:30:00Z",
+      "category": "groceries"
+    },
+    {
+      "id": "txn-025",
+      "title": "Parking",
+      "amount": "-12.00",
+      "currencyCode": "USD",
+      "date": "2026-10-11T13:30:00Z",
+      "category": "other",
+      "note": "Downtown garage"
+    },
+    {
+      "id": "txn-026",
+      "title": "Gift Card Refund",
+      "amount": "25.00",
+      "currencyCode": "USD",
+      "date": "2026-10-11T15:30:00Z",
+      "category": "other",
+      "note": "Refund"
+    }
+  ],
+  "budgets": {
+    "period": {
+      "start": "2026-10-01T00:00:00Z",
+      "end": "2026-11-01T00:00:00Z"
+    },
+    "limits": {
+      "groceries": "400.00",
+      "dining": "250.00",
+      "transport": "150.00",
+      "shopping": "300.00",
+      "bills": "1300.00",
+      "entertainment": "120.00",
+      "health": "100.00"
+    }
+  }
+}
